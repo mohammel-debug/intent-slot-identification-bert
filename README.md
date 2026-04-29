@@ -21,8 +21,8 @@ Intent classification and slot filling on the ATIS (Airline Travel Information S
 
 Two separate BERT-based models fine-tuned on the ATIS dataset:
 
-- `text_classification_model` — fine-tunes `bert-base-uncased` for intent classification using the `[CLS]` token representation
-- `sequence_labeling_model` — fine-tunes `bert-base-uncased` for slot filling using per-token representations
+- `text_classification_model`: fine-tunes `bert-base-uncased` for intent classification using the `[CLS]` token representation
+- `sequence_labeling_model`: fine-tunes `bert-base-uncased` for slot filling using per-token representations
 
 ## Results
 
